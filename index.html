@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>심화 검수지</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap">
+<style>
+:root { --bg: #fff8f4; --panel: #fff; --line: #ead9d3; --ink: #3a2a30; --soft: #7a6670; --rose: #b0476a; }
+@media (prefers-color-scheme: dark) { :root { --bg: #221a1d; --panel: #2c2226; --line: #4a3a40; --ink: #f4e8ec; --soft: #bba8b0; --rose: #f08aaa; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Noto Sans KR', system-ui, sans-serif; word-break: keep-all;
+  padding: 32px max(16px, env(safe-area-inset-right, 0px)) 32px max(16px, env(safe-area-inset-left, 0px)); }
+main { max-width: 560px; margin: 0 auto; display: grid; gap: 20px; }
+h1 { margin: 0; font-size: 24px; font-weight: 900; }
+p { margin: 0; color: var(--soft); font-size: 15px; }
+ul { list-style: none; margin: 0; padding: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+li + li { border-top: 1px solid var(--line); }
+a { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 64px; padding: 12px 18px; color: inherit; text-decoration: none; }
+a b { font-size: 19px; font-weight: 700; }
+a span { color: var(--soft); font-size: 14px; font-variant-numeric: tabular-nums; }
+a:hover b, a:focus-visible b { color: var(--rose); }
+a:focus-visible { outline: 3px solid var(--rose); outline-offset: -3px; border-radius: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>3-2 심화 검수지</h1>
+  <ul>
+    <li><a href="mul.html"><b>1단원 곱셈</b><span>21문제</span></a></li>
+    <li><a href="div.html"><b>2단원 나눗셈</b><span>21문제</span></a></li>
+    <li><a href="frac.html"><b>4단원 분수</b><span>21문제</span></a></li>
+    <li><a href="meas.html"><b>5단원 들이와 무게</b><span>21문제</span></a></li>
+  </ul>
+  <p>푼 기록과 펜 풀이는 이 기기에만 저장돼요.</p>
+</main>
+</body>
+</html>
